@@ -19,7 +19,8 @@ const getFonts = function () {
         'Playful': require('base64-loader!./BadComic-Regular.ttf'),
         'Arcade': require('base64-loader!./PressStart2P.ttf'),
         'Archivo': require('base64-loader!./Archivo-Regular.ttf'),
-        'Archivo Black': require('base64-loader!./Archivo-Black.ttf')
+        'Archivo Black': require('base64-loader!./Archivo-Black.ttf'),
+        'Handjet': require('base64-loader!./Handjet.ttf')
     };
     /* eslint-enable global-require */
 
