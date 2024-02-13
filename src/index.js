@@ -12,7 +12,8 @@ const getFonts = function () {
         'Marker': require('base64-loader!./Knewave.ttf'),
         'Curly': require('base64-loader!./Griffy-Regular.ttf'),
         'Pixel': require('base64-loader!./Grand9K-Pixel.ttf'),
-        'Scratch': require('base64-loader!./Scratch.ttf'),
+        // Xtraflexidisc is saved as Scratch for backwards-compat, this needs visual renaming
+        'Scratch': require('base64-loader!./Xtraflexidisc.otf'),
         'Technological': require('base64-loader!./MonospaceBold.ttf'),
         'Bubbly': require('base64-loader!./QTKooper.otf'),
         'Bits and Bytes': require('base64-loader!./freecam-v2.ttf'),
