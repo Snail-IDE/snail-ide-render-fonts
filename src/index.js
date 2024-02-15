@@ -22,7 +22,8 @@ const getFonts = function () {
         'Archivo': require('base64-loader!./Archivo-Regular.ttf'),
         'Archivo Black': require('base64-loader!./Archivo-Black.ttf'),
         'Handjet': require('base64-loader!./Handjet.ttf'),
-        'Luckiest Guy': require('base64-loader!./LuckiestGuy-Regular.ttf')
+        'Luckiest Guy': require('base64-loader!./LuckiestGuy-Regular.ttf'),
+        'Comic Sans': require('base64-loader!./ComicSans.ttf')
     };
     /* eslint-enable global-require */
 
